@@ -12,7 +12,7 @@ using authorization token (called Bot Token, in Slack), and Channel ID.
 
 Please follow instruction of Slack - [Getting started with Bolt for Python over HTTP](https://slack.dev/bolt-python/tutorial/getting-started-http).
 
-### Install Library
+### Local PC: Install Library
 
 Please install dependent libraries.
 
@@ -20,15 +20,15 @@ Please install dependent libraries.
 pip install -r requirements.txt
 ```
 
-### Optional Step
+### Slack Website: Optional Step
 
 1. Create Workspace to test this script.
     This can be done by clicking a link shown in above mentioned instruction.
     Or, please click [This Link](https://slack.com/get-started#create).
 
-### Main Steps
+### Slack Website: Creation of Application and Tokens
 
-1. Create and Application with any name.
+1. Create an Application with any name.
 1. Add Bot permission to `files:write` and `chat:write`.
 1. Install the Application to the Workspace, as shown in the instruction.
 1. (Optional) If you are going to use private channel to post images, add permission to the installed application.
