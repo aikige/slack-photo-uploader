@@ -12,7 +12,7 @@ using authorization token (called Bot Token, in Slack), and Channel ID.
 
 Please follow instruction of Slack - [Getting started with Bolt for Python over HTTP](https://slack.dev/bolt-python/tutorial/getting-started-http).
 
-### At Slack Website: Crate and Application and Tokens
+### At Slack Website: Crate an Application and Token
 
 1. Optional) if you want to test in closed environment,
     create Workspace to test this script.
