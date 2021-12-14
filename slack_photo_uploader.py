@@ -43,5 +43,9 @@ if __name__ == '__main__':
             help='configuration JSON file which stores Bot Token and Channel ID.', default='config.json')
     parser.add_argument('-m', '--message', 
             help='text message sent with the image.')
+    parser.add_argument('-l', '--log-level', default='WARNING',
+            help='change log level.')
     opt = vars(parser.parse_args())
+    logging.basicConfig()
+    logger.setLevel(opt.get('log_level'))
     upload(opt)
